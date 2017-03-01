@@ -1,0 +1,46 @@
+body{
+	background: lightgray;
+}
+table{
+	margin: 50px auto;
+	border-collapse: collapse;
+	background: white;
+}
+td{
+	border: 7px solid rgb(41,44,25);
+}
+.first .three, .second .three, .seventh .one{
+	background: rgb(255,248,109);
+}
+.second .two{
+	background: rgb(255,88,33);
+}
+.sixth .one, .eighth .two{
+	background: rgb(26,26,26);
+}
+.seventh .three{
+	background: rgb(0,66,132);
+}
+.first .one{
+  border-top:0;
+  border-left: 0;
+}
+.second .one, .fourth .one, .seventh .one{
+  border-left: 0;
+}
+.first .two, .first .three{
+  border-top: 0;
+}
+.first .three, .second .three, .fourth .three, .sixth .three, .seventh .three, .ninth .one{
+  border-right: 0;
+}
+.seventh .one, .eighth .one, .ninth .one{
+  border-bottom: 0;
+}
+tr{
+  height: 55px;
+}
+td{
+  width: 90px;
+  height: 55px;
+}
